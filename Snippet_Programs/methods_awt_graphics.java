@@ -1,0 +1,16 @@
+void drawRect(int x, int y, int width, int height);
+void drawRoundRect(int x, int y, int w, int h, int arcWidth, int arcHeight);
+void drawOval(int x, int y, int width, int height);
+void fillRect(int x, int y, int width, int height);
+void fillRoundRect(int x, int y, int w, int h, int arcWidth, int arcHeight);
+void fillOval(int x, int y, int width, int height);
+void drawString(String text, int x, int y);
+void drawLine(int x1, int y1, int x2, int y2);
+void draw3DRect(int x, int y, int w, int h, boolean raised);
+void fill3DRect(int x, int y, int w, int h, boolean raised);
+void drawArc(int x, int y, int w, int h, int startAngle, int arcAngle);
+void fillArc(int x, int y, int w, int h, int startAngle, int arcAngle);
+void setColor(Color c);
+void setFont(Font f);
+void drawPolygon(int [] x, int [] y, int numPoints);
+void fillPolygon(int [] x, int [] y, int numPoints);
